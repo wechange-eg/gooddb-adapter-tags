@@ -3,7 +3,8 @@ from django.contrib import admin
 from .models import Tag, Category
 
 class TagAdmin(admin.ModelAdmin):
-    pass
+    list_display = ('name', 'category')
+    list_filter = ('category', )
 
 admin.site.register(Tag, TagAdmin)
 
