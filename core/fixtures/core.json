@@ -1,0 +1,1751 @@
+[
+{
+  "model": "core.category",
+  "pk": 4,
+  "fields": {
+    "name": "Ern\u00e4hrung und Konsum"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 5,
+  "fields": {
+    "name": "Gesundheit"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 6,
+  "fields": {
+    "name": "Bauen und Wohnen"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 7,
+  "fields": {
+    "name": "Geld und Finanzen"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 8,
+  "fields": {
+    "name": "Bildung"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 9,
+  "fields": {
+    "name": "Umwelt"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 10,
+  "fields": {
+    "name": "Kunst und Kultur"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 11,
+  "fields": {
+    "name": "Arbeit und Recht"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 12,
+  "fields": {
+    "name": "Mobilit\u00e4t"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 13,
+  "fields": {
+    "name": "Energie"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 14,
+  "fields": {
+    "name": "Klimaschutz"
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 3,
+  "fields": {
+    "name": "0.0",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 4,
+  "fields": {
+    "name": "abendessengehen",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 5,
+  "fields": {
+    "name": "accessoires",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 6,
+  "fields": {
+    "name": "achtsamkeit",
+    "category": 5
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 7,
+  "fields": {
+    "name": "architektur",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 8,
+  "fields": {
+    "name": "austausch",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 9,
+  "fields": {
+    "name": "b\u00e4ckerei",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 10,
+  "fields": {
+    "name": "bekleidung",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 11,
+  "fields": {
+    "name": "beratung",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 12,
+  "fields": {
+    "name": "bge",
+    "category": 7
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 13,
+  "fields": {
+    "name": "bildung",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 14,
+  "fields": {
+    "name": "bioladen",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 15,
+  "fields": {
+    "name": "bioland",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 16,
+  "fields": {
+    "name": "biologisch",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 17,
+  "fields": {
+    "name": "bistro",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 18,
+  "fields": {
+    "name": "bne",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 19,
+  "fields": {
+    "name": "b\u00fccher",
+    "category": 10
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 20,
+  "fields": {
+    "name": "bundhshd",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 21,
+  "fields": {
+    "name": "bundjugend",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 22,
+  "fields": {
+    "name": "cafe",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 23,
+  "fields": {
+    "name": "caf\u00e9",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 24,
+  "fields": {
+    "name": "caj",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 25,
+  "fields": {
+    "name": "circulareconomy",
+    "category": 7
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 26,
+  "fields": {
+    "name": "coaching",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 27,
+  "fields": {
+    "name": "community",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 28,
+  "fields": {
+    "name": "coworking",
+    "category": 11
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 29,
+  "fields": {
+    "name": "csa",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 30,
+  "fields": {
+    "name": "damenmode",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 31,
+  "fields": {
+    "name": "demeter",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 32,
+  "fields": {
+    "name": "demokratie",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 33,
+  "fields": {
+    "name": "design",
+    "category": 10
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 34,
+  "fields": {
+    "name": "digitalisierung",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 35,
+  "fields": {
+    "name": "dingetransportieren",
+    "category": 12
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 36,
+  "fields": {
+    "name": "diy",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 37,
+  "fields": {
+    "name": "ecogood",
+    "category": 7
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 38,
+  "fields": {
+    "name": "ehrenamt",
+    "category": 11
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 39,
+  "fields": {
+    "name": "einkaufen",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 40,
+  "fields": {
+    "name": "energie",
+    "category": 13
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 41,
+  "fields": {
+    "name": "energiefeld",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 42,
+  "fields": {
+    "name": "energiewende",
+    "category": 13
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 43,
+  "fields": {
+    "name": "engagement",
+    "category": 11
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 44,
+  "fields": {
+    "name": "ern\u00e4hrung",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 45,
+  "fields": {
+    "name": "ern\u00e4hrungsdemokratie",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 46,
+  "fields": {
+    "name": "erneuerbare-energien",
+    "category": 13
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 47,
+  "fields": {
+    "name": "essen",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 48,
+  "fields": {
+    "name": "events",
+    "category": 10
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 49,
+  "fields": {
+    "name": "fahrrad",
+    "category": 12
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 50,
+  "fields": {
+    "name": "fair",
+    "category": 11
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 51,
+  "fields": {
+    "name": "fairer-handel",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 52,
+  "fields": {
+    "name": "fairfashion",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 53,
+  "fields": {
+    "name": "fairtrade",
+    "category": 11
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 54,
+  "fields": {
+    "name": "fashion",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 55,
+  "fields": {
+    "name": "fleisch",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 56,
+  "fields": {
+    "name": "foodsharing",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 57,
+  "fields": {
+    "name": "forschung",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 58,
+  "fields": {
+    "name": "fr\u00fchst\u00fcck",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 59,
+  "fields": {
+    "name": "fr\u00fchst\u00fcckengehen",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 60,
+  "fields": {
+    "name": "fwd-regionalgruppe",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 61,
+  "fields": {
+    "name": "garten",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 62,
+  "fields": {
+    "name": "gastro",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 63,
+  "fields": {
+    "name": "gastronomie",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 64,
+  "fields": {
+    "name": "geld",
+    "category": 7
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 65,
+  "fields": {
+    "name": "gemeinn\u00fctzig",
+    "category": 11
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 66,
+  "fields": {
+    "name": "gemeinschaft",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 67,
+  "fields": {
+    "name": "gemeinschaftsgarten",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 68,
+  "fields": {
+    "name": "gemeinwohl",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 69,
+  "fields": {
+    "name": "gemeinwohl\u00f6konomie",
+    "category": 7
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 70,
+  "fields": {
+    "name": "gem\u00fcse",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 71,
+  "fields": {
+    "name": "genossenschaft",
+    "category": 11
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 72,
+  "fields": {
+    "name": "gerechtigkeit",
+    "category": 11
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 73,
+  "fields": {
+    "name": "gesellschaft",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 74,
+  "fields": {
+    "name": "gestaltung",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 75,
+  "fields": {
+    "name": "gesundheit",
+    "category": 5
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 76,
+  "fields": {
+    "name": "grundeinkommen",
+    "category": 7
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 77,
+  "fields": {
+    "name": "gr\u00fcnder\u00f6kosystem",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 78,
+  "fields": {
+    "name": "gw\u00f6",
+    "category": 7
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 79,
+  "fields": {
+    "name": "haushalt",
+    "category": 7
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 80,
+  "fields": {
+    "name": "hof",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 81,
+  "fields": {
+    "name": "hofladen",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 82,
+  "fields": {
+    "name": "honig",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 83,
+  "fields": {
+    "name": "ideenerfahren17",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 84,
+  "fields": {
+    "name": "imbiss",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 85,
+  "fields": {
+    "name": "inklusion",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 86,
+  "fields": {
+    "name": "innovationen",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 87,
+  "fields": {
+    "name": "inscafegehen",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 88,
+  "fields": {
+    "name": "institut",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 89,
+  "fields": {
+    "name": "integration",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 90,
+  "fields": {
+    "name": "kab",
+    "category": 11
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 91,
+  "fields": {
+    "name": "kaffee",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 92,
+  "fields": {
+    "name": "kinder",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 93,
+  "fields": {
+    "name": "klamotten",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 94,
+  "fields": {
+    "name": "klamottenkaufen",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 95,
+  "fields": {
+    "name": "klamottenladen",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 96,
+  "fields": {
+    "name": "kleidung",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 97,
+  "fields": {
+    "name": "klimaschutz",
+    "category": 14
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 98,
+  "fields": {
+    "name": "klimawandel",
+    "category": 14
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 99,
+  "fields": {
+    "name": "kommunikation",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 100,
+  "fields": {
+    "name": "konsumkritischer-stadtrundgang",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 101,
+  "fields": {
+    "name": "kosmetik",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 102,
+  "fields": {
+    "name": "kultur",
+    "category": 10
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 103,
+  "fields": {
+    "name": "kunst",
+    "category": 10
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 104,
+  "fields": {
+    "name": "lagsoziokulturbayern",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 105,
+  "fields": {
+    "name": "landwirtschaft",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 106,
+  "fields": {
+    "name": "lastenrad",
+    "category": 12
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 107,
+  "fields": {
+    "name": "lastenradverleih",
+    "category": 12
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 108,
+  "fields": {
+    "name": "lebensgemeinschaft",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 109,
+  "fields": {
+    "name": "lebensmittel",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 110,
+  "fields": {
+    "name": "lebensmittelbesorgen",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 111,
+  "fields": {
+    "name": "lernen",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 112,
+  "fields": {
+    "name": "mittagessengehen",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 113,
+  "fields": {
+    "name": "m\u00f6bel",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 114,
+  "fields": {
+    "name": "mobilit\u00e4t",
+    "category": 12
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 115,
+  "fields": {
+    "name": "mobilit\u00e4t&werkst\u00e4tten",
+    "category": 12
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 116,
+  "fields": {
+    "name": "mode",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 117,
+  "fields": {
+    "name": "musik",
+    "category": 10
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 118,
+  "fields": {
+    "name": "nachbarschaft",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 119,
+  "fields": {
+    "name": "nachhaltig",
+    "category": 14
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 120,
+  "fields": {
+    "name": "nachhaltigkeit",
+    "category": 14
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 121,
+  "fields": {
+    "name": "natur",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 122,
+  "fields": {
+    "name": "naturschutz",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 123,
+  "fields": {
+    "name": "netzwerk",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 124,
+  "fields": {
+    "name": "obst",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 125,
+  "fields": {
+    "name": "\u00f6ko",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 126,
+  "fields": {
+    "name": "\u00f6kobau",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 127,
+  "fields": {
+    "name": "\u00f6kodorf",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 128,
+  "fields": {
+    "name": "\u00f6koligenta",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 129,
+  "fields": {
+    "name": "\u00f6koligenta-netz",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 130,
+  "fields": {
+    "name": "\u00f6kologie",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 131,
+  "fields": {
+    "name": "\u00f6kologisch",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 132,
+  "fields": {
+    "name": "\u00f6kologische-landwirtschaft",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 133,
+  "fields": {
+    "name": "papierkarte",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 134,
+  "fields": {
+    "name": "partei",
+    "category": 11
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 135,
+  "fields": {
+    "name": "partizipation",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 136,
+  "fields": {
+    "name": "permakultur",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 137,
+  "fields": {
+    "name": "petitriens",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 138,
+  "fields": {
+    "name": "plastikfrei",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 139,
+  "fields": {
+    "name": "plattform",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 140,
+  "fields": {
+    "name": "pocsummit",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 141,
+  "fields": {
+    "name": "politik",
+    "category": 11
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 142,
+  "fields": {
+    "name": "produkte",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 143,
+  "fields": {
+    "name": "projekte",
+    "category": 11
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 144,
+  "fields": {
+    "name": "recycling",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 145,
+  "fields": {
+    "name": "refugees",
+    "category": 11
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 146,
+  "fields": {
+    "name": "regional",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 147,
+  "fields": {
+    "name": "regionalgruppe",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 148,
+  "fields": {
+    "name": "regionallotse",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 149,
+  "fields": {
+    "name": "regpis",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 150,
+  "fields": {
+    "name": "repaircafe",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 151,
+  "fields": {
+    "name": "reparatur",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 152,
+  "fields": {
+    "name": "reparieren",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 153,
+  "fields": {
+    "name": "restaurant",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 154,
+  "fields": {
+    "name": "rethinkeconomy",
+    "category": 7
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 155,
+  "fields": {
+    "name": "saisonal",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 156,
+  "fields": {
+    "name": "schmuck",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 157,
+  "fields": {
+    "name": "schokofahrt",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 158,
+  "fields": {
+    "name": "schokolade",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 159,
+  "fields": {
+    "name": "schuhe",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 160,
+  "fields": {
+    "name": "schule",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 161,
+  "fields": {
+    "name": "secondhand",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 162,
+  "fields": {
+    "name": "secondhandladen",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 163,
+  "fields": {
+    "name": "sharing",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 164,
+  "fields": {
+    "name": "socent",
+    "category": 7
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 165,
+  "fields": {
+    "name": "social-startup",
+    "category": 10
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 166,
+  "fields": {
+    "name": "solawi",
+    "category": 14
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 167,
+  "fields": {
+    "name": "solidarische-landwirtschaft",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 168,
+  "fields": {
+    "name": "sozial",
+    "category": 10
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 169,
+  "fields": {
+    "name": "soziokultur",
+    "category": 10
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 170,
+  "fields": {
+    "name": "soziokulturbayern",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 171,
+  "fields": {
+    "name": "stadt",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 172,
+  "fields": {
+    "name": "stadtentwicklung",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 173,
+  "fields": {
+    "name": "stadtgarten",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 174,
+  "fields": {
+    "name": "startup",
+    "category": 11
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 175,
+  "fields": {
+    "name": "technologie",
+    "category": 13
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 176,
+  "fields": {
+    "name": "teikei",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 177,
+  "fields": {
+    "name": "teikei-gemeinschaft",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 178,
+  "fields": {
+    "name": "tinyhouse",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 179,
+  "fields": {
+    "name": "transformation",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 180,
+  "fields": {
+    "name": "transition",
+    "category": 14
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 181,
+  "fields": {
+    "name": "transitiontown",
+    "category": 14
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 182,
+  "fields": {
+    "name": "umsonstladen",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 183,
+  "fields": {
+    "name": "umwelt",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 184,
+  "fields": {
+    "name": "umweltbildung",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 185,
+  "fields": {
+    "name": "umweltschutz",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 186,
+  "fields": {
+    "name": "unverpackt",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 187,
+  "fields": {
+    "name": "upcycling",
+    "category": 14
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 188,
+  "fields": {
+    "name": "urban-gardening",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 189,
+  "fields": {
+    "name": "vegan",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 190,
+  "fields": {
+    "name": "vegetarisch",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 191,
+  "fields": {
+    "name": "veranstaltungen",
+    "category": 10
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 192,
+  "fields": {
+    "name": "verein",
+    "category": 11
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 193,
+  "fields": {
+    "name": "verkehr",
+    "category": 12
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 194,
+  "fields": {
+    "name": "vernetzung",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 195,
+  "fields": {
+    "name": "verpackungsfrei",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 196,
+  "fields": {
+    "name": "vorw\u00e4rtsbeo",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 197,
+  "fields": {
+    "name": "wandel",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 198,
+  "fields": {
+    "name": "wandel-bayreuth",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 199,
+  "fields": {
+    "name": "wandeltreppe",
+    "category": null
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 200,
+  "fields": {
+    "name": "weltbewusst",
+    "category": 9
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 201,
+  "fields": {
+    "name": "weltladen",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 202,
+  "fields": {
+    "name": "werkstatt",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 203,
+  "fields": {
+    "name": "wind",
+    "category": 14
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 204,
+  "fields": {
+    "name": "wirtschaft",
+    "category": 7
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 205,
+  "fields": {
+    "name": "wissenschaft",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 206,
+  "fields": {
+    "name": "wohnen",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 207,
+  "fields": {
+    "name": "wohnprojekt",
+    "category": 6
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 208,
+  "fields": {
+    "name": "workshops",
+    "category": 8
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 209,
+  "fields": {
+    "name": "zerowaste",
+    "category": 4
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 210,
+  "fields": {
+    "name": "zivilgesellschaft",
+    "category": 10
+  }
+},
+{
+  "model": "core.tag",
+  "pk": 211,
+  "fields": {
+    "name": "zukunft",
+    "category": null
+  }
+}
+]
