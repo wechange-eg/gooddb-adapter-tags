@@ -1,5 +1,3 @@
-from abc import ABCMeta
-
 from rest_framework import serializers
 
 from core.serializers import CoordinatesSerializer, AddressSerializer, ContactSerializer
