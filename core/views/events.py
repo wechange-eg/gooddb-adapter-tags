@@ -1,23 +1,50 @@
-from rest_framework import viewsets
+from rest_framework.response import Response
+from rest_framework.views import APIView
 
-from core.views import UpdateCategoryMixin
+from core.serializers.events import EventSerializer
+from core.serializers.places import PlaceSerializer
+from core.views import UpdateCategoryMixin, ValidationMixin
 
 
-class EventsViewSet(UpdateCategoryMixin,
-                    viewsets.ViewSet):
+class EventAPIView(UpdateCategoryMixin,
+                   ValidationMixin,
+                   APIView):
 
-    def _update_events(self):
+    serializer_class = EventSerializer
+    items_key = 'events'
+    http_method_names = ['post', 'head', 'options', 'trace']
+
+    def post(self, request):
         """
-        Update categories based upon given tags
+        Validate items given and update categories
         :return:
         """
-        pass
+        # Validate
+        errors = self._validate()
+        if errors:
+            return Response({'errors': errors}, status=400)
+        items = self._update_items(request.data.get(self.items_key))
 
-    def create(self, request):
-        pass
+        return Response({self.items_key: items})
 
-    def update(self, request, pk=None):
-        pass
 
-    def partial_update(self, request, pk=None):
-        pass
+class PlaceAPIView(UpdateCategoryMixin,
+                   ValidationMixin,
+                   APIView):
+
+    serializer_class = PlaceSerializer
+    items_key = 'places'
+    http_method_names = ['post', 'head', 'options', 'trace']
+
+    def post(self, request):
+        """
+        Validate items given and update categories
+        :return:
+        """
+        # Validate
+        errors = self._validate()
+        if errors:
+            return Response({'errors': errors}, status=400)
+        items = self._update_items(request.data.get(self.items_key))
+
+        return Response({self.items_key: items})
