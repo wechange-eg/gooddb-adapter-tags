@@ -5,7 +5,6 @@ from django.utils.translation import ugettext_lazy as _
 
 BASE_DIR = environ.Path(__file__) - 3  # type: environ.Path
 
-
 env = environ.Env()
 env.read_env(BASE_DIR('.env'))
 
@@ -16,10 +15,8 @@ USE_L10N = True
 USE_TZ = True
 SITE_ID = 1
 
-
 ROOT_URLCONF = 'config.urls'
 WSGI_APPLICATION = 'config.wsgi.application'
-
 
 EMAIL_CONFIG = env.email_url('DJANGO_EMAIL_URL', default='consolemail://')
 vars().update(EMAIL_CONFIG)
@@ -91,5 +88,6 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication',
-    )
+    ),
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema'
 }
