@@ -7,13 +7,13 @@ class CoordinatesSerializer(serializers.Serializer):
 
 
 class AddressSerializer(serializers.Serializer):
-    street = serializers.CharField()
-    zip = serializers.CharField()
-    city = serializers.CharField()
-    country = serializers.CharField()
+    street = serializers.CharField(required=False)
+    zip = serializers.CharField(required=False)
+    city = serializers.CharField(required=False)
+    country = serializers.CharField(required=False)
 
 
 class ContactSerializer(serializers.Serializer):
     email = serializers.EmailField()
-    phone = serializers.CharField()
-    website = serializers.URLField()
+    phone = serializers.CharField(required=False)
+    website = serializers.URLField(required=False)

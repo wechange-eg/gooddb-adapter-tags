@@ -1,14 +1,16 @@
 from rest_framework import serializers
 
+from core.serializers import CoordinatesSerializer, AddressSerializer, ContactSerializer
+
 
 class ImageSerializer(serializers.Serializer):
     url = serializers.URLField()
-    primary = serializers.BooleanField()
-    title = serializers.CharField()
+    primary = serializers.BooleanField(required=False)
+    title = serializers.CharField(required=False)
 
 
 class OpeningHoursSerializer(serializers.Serializer):
-    description = serializers.CharField()
+    description = serializers.CharField(required=False)
     periods = serializers.ListField()
 
 
@@ -34,17 +36,17 @@ class PlaceSerializer(serializers.Serializer):
     version = serializers.IntegerField(read_only=False)
     createdAt = serializers.IntegerField()
     title = serializers.CharField()
-    description = serializers.CharField()
-    placeType = serializers.ChoiceField(choices=PLACETYPE_CHOICES)
+    description = serializers.CharField(required=False)
+    placeType = serializers.ChoiceField(choices=PLACETYPE_CHOICES, required=False)
     images = ImageSerializer(many=True)
     coordinates = CoordinatesSerializer()
-    address = AddressSerializer()
+    address = AddressSerializer(required=False)
     contact = ContactSerializer()
-    categories = serializers.ListField()
-    tags = serializers.ListField()
-    rating = serializers.FloatField()
-    openingHours = OpeningHoursSerializer()
-    license = serializers.CharField()
-    priceLevel = serializers.ChoiceField(choices=PRICELEVEL_CHOICES)
+    categories = serializers.ListField(required=False)
+    tags = serializers.ListField(required=False)
+    rating = serializers.FloatField(required=False)
+    openingHours = OpeningHoursSerializer(required=False)
+    license = serializers.CharField(required=False)
+    priceLevel = serializers.ChoiceField(choices=PRICELEVEL_CHOICES, required=False)
     source = serializers.CharField()
-    additionalProperties = serializers.ListField()
+    additionalProperties = serializers.ListField(required=False)
