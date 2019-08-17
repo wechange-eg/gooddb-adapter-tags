@@ -16,7 +16,6 @@ class EventSerializer(serializers.Serializer):
     end = serializers.IntegerField(required=False)
     allDayEvent = serializers.BooleanField(required=False)
     createdAt = serializers.IntegerField()
-    createdBy = serializers.EmailField()
     coordinates = CoordinatesSerializer()
     address = AddressSerializer(required=False)
     contact = ContactSerializer()
