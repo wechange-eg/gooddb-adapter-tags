@@ -1,5 +1,5 @@
 """
-WSGI config for GoodDB Filter project.
+WSGI config for GoodDB Adapter project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

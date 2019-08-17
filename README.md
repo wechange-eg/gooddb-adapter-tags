@@ -1,2 +1,2 @@
-# gooddb-filter-tag
-GoodDB filter microservice for tags/categories
+# gooddb-adapter-tags
+GoodDB adapter microservice for tags/categories
