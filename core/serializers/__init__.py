@@ -14,6 +14,6 @@ class AddressSerializer(serializers.Serializer):
 
 
 class ContactSerializer(serializers.Serializer):
-    email = serializers.EmailField()
-    phone = serializers.CharField(required=False)
-    website = serializers.URLField(required=False)
+    email = serializers.ListField(child=serializers.EmailField())
+    phone = serializers.ListField(child=serializers.CharField(required=False))
+    website = serializers.ListField(child=serializers.URLField(required=False))
