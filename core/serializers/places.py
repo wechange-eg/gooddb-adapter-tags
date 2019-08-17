@@ -38,7 +38,7 @@ class PlaceSerializer(serializers.Serializer):
     title = serializers.CharField()
     description = serializers.CharField(required=False)
     placeType = serializers.ChoiceField(choices=PLACETYPE_CHOICES, required=False)
-    images = ImageSerializer(many=True)
+    images = ImageSerializer(many=True, required=False)
     coordinates = CoordinatesSerializer()
     address = AddressSerializer(required=False)
     contact = ContactSerializer()
